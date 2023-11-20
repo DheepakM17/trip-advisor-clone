@@ -501,3 +501,32 @@ body button:hover{
     gap: 10px;
     display: flex;
 }
+
+@media screen and (max-width:600px){
+
+    .header__s3__button{
+        display: none;
+    }
+
+    .sections__s3{
+        display: none;
+    }
+    .header__s2{
+        display: none;
+    }
+    .header__s1{
+       display: flex;
+        align-items: center;
+justify-content: center;
+margin-left: 150px;
+    }
+    .footer{
+  flex-grow: 1;
+        flex-basis: 50%;
+    }
+
+    .trip1{
+       
+        flex-basis: 40%;
+    }
+}
